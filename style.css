@@ -1,0 +1,129 @@
+
+          body{ background-image: linear-gradient(to top,rgb(179, 159, 159),rgb(162, 162, 231),rgb(153, 153, 231));
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          
+          }
+
+          .about{ color: #fff; text-align: justify;}
+
+          
+            .image {height: 400px ; width:300px ; border:5px 
+                    solid black;float: right;
+                    margin: 20px;
+                     
+            }
+            
+            p { style= font-size:25px; text-align:center; color: #AA3939;}
+
+            
+            h1:hover{ color:red;
+            }
+            h2:hover{color: red;
+  
+            }
+
+
+            .link {  text-transform: capitalize; text-decoration: underline; 
+                      font-size: 20px; }
+          
+
+          .green-text {color:palegoldenrod; 
+                      font-family: 'Courier New', Courier, monospace; }
+          .green-text2{ color:#fff; border-style: solid; border-radius: 5px;}
+          
+          #sometext{ text-align:center; color: red;}
+        
+          
+          /* .box{ background: #86a136;
+               border-width: 2px 3px 4px 5px;
+               border-color: #3c5100;
+               border-style: solid;
+               color: #fff;
+               border-radius: 8px;
+               padding: 5px;
+               margin: 20px;
+          } */
+
+          .back{
+               background: #9cc916;
+               border: 5px  solid #303f05;
+               padding:5px ;
+               margin: 20;
+               border-radius: 5px;
+               color: #fff;
+              }
+              
+          #service { background-color: rgba(17, 231, 17,.7);
+                    background-size: 50px;
+              }
+
+              
+                 
+              
+          #service-image { height: 400px;
+                            width: 400px;
+                              
+               background-image: radial-gradient( circle, red, rgb(9, 250, 9));
+
+              border: 10pt solid rgb(40, 61, 70);
+              margin: 80px 500px;
+              padding: 10px 5px 10px 5px;
+         }  
+         
+         
+        .container { background-color: #303f05;
+                margin: 50px;
+                height: 300px;
+                flex-direction:row;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                
+               }
+
+        .container-item {
+                margin: 20px;
+                background-color: #9cc916;
+                width: 20px;
+                text-align: center;
+                color: #fff;
+                height: 100px;
+               
+                }
+
+
+        .button:hover{
+                      background-color: aquamarine;
+
+                      transition : all 1s ease;
+                      padding: 5px 10px;
+             }
+
+
+        .any {
+                     /* animation-name: green-to-read;
+                     animation-duration: 5s;
+                     animation-timing-function: linear;
+                     animation-iteration-count: 2;
+                     animation-direction: alternate; */
+                     animation: green-to-read 5s linear 2 alternate
+                }
+
+        
+        
+
+        @keyframes green-to-read {
+                     0% {background:green;
+                        transform:translate(0px,0px);
+
+             }
+
+                50% {
+                        background: greenyellow;
+                        transform:translate( 10px,10px);
+                }
+
+                100% {
+                        background: green;
+                        transform:translate(20px,20px);
+                }  
